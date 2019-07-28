@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText("You Send The "+button.getText());
                 break;
         }
-    }       //按钮响应....不知道为什么二进制码要颠倒顺序。。应该跟红外接收头有关
+    }       //按钮响应....不知道为什么二进制码要颠倒顺序。。应该跟红外接收头有关，不同的硬件可能会有差异
 
     public String ConversePositionLocigal(String key){
         char[] temp=key.toCharArray();
